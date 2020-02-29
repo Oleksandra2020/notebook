@@ -11,6 +11,8 @@ if __name__ == "__main__":
     print(n.__dir__)
     print(n.__dict__)
     print(isinstance(n.modify_memo, object))
+    print(isinstance(n.modify_memo, Note))
+    print(isinstance(n.modify_memo, Notebook))
     print(isinstance(n1.match, object))
     print(isinstance(n1, object))
 

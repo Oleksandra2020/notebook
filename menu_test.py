@@ -9,3 +9,5 @@ if __name__ == "__main__":
     print(isinstance("display_menu", object))
     print(m.__init__)
     print(m.__delattr__)
+    print(isinstance('modify_note', Menu))
+    print(isinstance('modify_note', Notebook))
